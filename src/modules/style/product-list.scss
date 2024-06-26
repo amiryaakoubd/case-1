@@ -1,0 +1,25 @@
+
+.product-list {
+    margin: 0;
+    padding: 24px;
+    list-style: none;
+
+    &__item {
+        list-style: none;
+        box-sizing: border-box;
+    }
+}
+
+.product-list-item {
+    &__image {
+        display: block;
+        padding: 16px;
+        position: relative;
+
+        img {
+            height: 134px;
+            object-fit: contain;
+            width: 134px;
+        }
+    }
+}
