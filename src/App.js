@@ -1,8 +1,7 @@
-import React from 'react';
-import ProductView from './modules/ProductView';
+import React from "react";
+import ProductView from "./modules/ProductView/ProductView";
 
 function App() {
-
   return (
     <div className="App">
       <ProductView />

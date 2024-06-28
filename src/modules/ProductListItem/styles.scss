@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+
+.product-list-item {
+  padding-bottom: $spacing-sm;
+
+  &__image {
+    display: flex;
+    width: 100%;
+    padding: $spacing-sm;
+    border: none;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+    img {
+      height: 134px;
+      object-fit: contain;
+      width: 134px;
+    }
+  }
+}
+
+.product-list-item-price-wrapper {
+  border-bottom: $color-divider 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list-item-price {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+}
+
+.product-list-item-name {
+  font-size: $font-size-md;
+  font-weight: $font-weight-bold;
+  margin-top: $spacing-xs;
+  margin-bottom: $spacing-xs;
+}
+
+.product-list-item-description {
+  font-size: $font-size-sm;
+  color: $color-dark-grey;
+  font-weight: $font-weight-bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  // In case if the description is too long, we will show only 2 lines and add ellipsis
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  max-height: 3em;
+}

@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.product-view {
+  margin: 0 auto;
+  max-width: $max-width-body;
+  padding: 0 $spacing-xs;
+
+  @media (min-width: $breakpoint-xs) {
+    padding: 0 $spacing-sm;
+  }
+}
+
+.product-view-heading {
+  padding: $spacing-sm 0;
+  border-bottom: $color-divider 1px solid;
+  margin-top: 0;
+  margin-bottom: $spacing-md;
+}

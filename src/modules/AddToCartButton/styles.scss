@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.add-to-cart-button {
+  position: relative;
+  display: flex;
+  height: fit-content;
+  background-color: $color-primary;
+  padding: $spacing-xs;
+  border: none;
+  height: calc($spacing-xs * 2 + 24px);
+  width: calc($spacing-xs * 2 + 24px);
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: darken($color-primary, 10%);
+  }
+
+  svg {
+    display: block;
+    position: absolute;
+    top: $spacing-xs;
+    left: calc($spacing-xs - 1px);
+  }
+}
