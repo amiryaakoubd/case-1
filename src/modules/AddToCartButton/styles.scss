@@ -11,6 +11,8 @@
   width: calc($spacing-xs * 2 + 24px);
   border-radius: 50%;
   cursor: pointer;
+  color: $color-white;
+  align-items: center;
 
   &:hover,
   &:focus {
@@ -22,5 +24,16 @@
     position: absolute;
     top: $spacing-xs;
     left: calc($spacing-xs - 1px);
+  }
+
+  &.show-label {
+    border-radius: 8px;
+    width: fit-content;
+
+    span {
+      margin-left: calc(24px + $spacing-xs);
+      font-size: $font-size-sm;
+      font-weight: $font-weight-bold;
+    }
   }
 }

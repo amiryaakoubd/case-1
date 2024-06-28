@@ -20,6 +20,35 @@
       width: 134px;
     }
   }
+
+  &__price {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+  }
+
+  &__name {
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    margin-top: $spacing-xs;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__description {
+    font-size: $font-size-sm;
+    color: $color-dark-grey;
+    font-weight: $font-weight-bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    // In case if the description is too long, we will show only 2 lines and add ellipsis
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    max-height: 3em;
+  }
 }
 
 .product-list-item-price-wrapper {
@@ -28,33 +57,4 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.product-list-item-price {
-  font-size: $font-size-lg;
-  font-weight: $font-weight-bold;
-}
-
-.product-list-item-name {
-  font-size: $font-size-md;
-  font-weight: $font-weight-bold;
-  margin-top: $spacing-xs;
-  margin-bottom: $spacing-xs;
-}
-
-.product-list-item-description {
-  font-size: $font-size-sm;
-  color: $color-dark-grey;
-  font-weight: $font-weight-bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  // In case if the description is too long, we will show only 2 lines and add ellipsis
-  width: 100%;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1.5;
-  max-height: 3em;
 }
