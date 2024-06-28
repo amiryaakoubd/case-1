@@ -41,7 +41,6 @@
   align-items: center;
   padding-bottom: $spacing-sm;
   border-bottom: $color-divider 1px solid;
-  margin-bottom: $spacing-md;
 
   h2 {
     margin: 0;
@@ -62,7 +61,8 @@
   display: flex;
   flex-direction: row;
   gap: $spacing-md;
-  margin-bottom: $spacing-sm;
+  padding: $spacing-md 0;
+  border-bottom: $color-divider 1px solid;
 
   &__image {
     flex: 1;
@@ -96,7 +96,7 @@
   &__description {
     font-size: $font-size-md;
     color: $color-dark-grey;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: $spacing-md;
+    margin-bottom: $spacing-md;
   }
 }

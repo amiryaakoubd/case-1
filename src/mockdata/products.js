@@ -6,10 +6,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 1",
     nutritionalContent: {
-      calories: 150,
-      protein: 10,
-      carbohydrates: 20,
-      fat: 5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [2, 3],
   },
@@ -20,10 +32,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 2",
     nutritionalContent: {
-      calories: 120,
-      protein: 8,
-      carbohydrates: 15,
-      fat: 4,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [1, 4],
   },
@@ -35,10 +59,22 @@ export const products = [
     description:
       "A description for Product 3. This is a very very very very very long description.",
     nutritionalContent: {
-      calories: 140,
-      protein: 9,
-      carbohydrates: 18,
-      fat: 4.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [1, 4],
   },
@@ -49,10 +85,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 4",
     nutritionalContent: {
-      calories: 130,
-      protein: 9.5,
-      carbohydrates: 16,
-      fat: 4,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [2, 3],
   },
@@ -63,10 +111,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 5",
     nutritionalContent: {
-      calories: 160,
-      protein: 11,
-      carbohydrates: 22,
-      fat: 5.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5.5,
+        unit: "g",
+      },
     },
     relatedProducts: [6, 7],
   },
@@ -91,10 +151,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 7",
     nutritionalContent: {
-      calories: 150,
-      protein: 10.5,
-      carbohydrates: 20,
-      fat: 5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10.5,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [5, 8],
   },
@@ -105,10 +177,22 @@ export const products = [
     price: 10.99,
     description: "A description for Product 8",
     nutritionalContent: {
-      calories: 140,
-      protein: 10,
-      carbohydrates: 19,
-      fat: 4.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [6, 7],
   },
@@ -119,10 +203,22 @@ export const products = [
     price: 11.99,
     description: "A description for Product 9",
     nutritionalContent: {
-      calories: 170,
-      protein: 12,
-      carbohydrates: 21,
-      fat: 6,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [10, 12],
   },
@@ -133,10 +229,22 @@ export const products = [
     price: 11.99,
     description: "A description for Product 10",
     nutritionalContent: {
-      calories: 180,
-      protein: 12.5,
-      carbohydrates: 22,
-      fat: 6.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [9, 11],
   },
@@ -147,10 +255,22 @@ export const products = [
     price: 11.99,
     description: "A description for Product 11",
     nutritionalContent: {
-      calories: 175,
-      protein: 12,
-      carbohydrates: 20,
-      fat: 6,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [10, 12],
   },
@@ -161,10 +281,22 @@ export const products = [
     price: 11.99,
     description: "A description for Product 12",
     nutritionalContent: {
-      calories: 170,
-      protein: 12.5,
-      carbohydrates: 21,
-      fat: 6.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [9, 11],
   },
@@ -175,10 +307,22 @@ export const products = [
     price: 12.99,
     description: "A description for Product 13",
     nutritionalContent: {
-      calories: 190,
-      protein: 13,
-      carbohydrates: 23,
-      fat: 7,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [14, 15],
   },
@@ -189,10 +333,22 @@ export const products = [
     price: 12.99,
     description: "A description for Product 14",
     nutritionalContent: {
-      calories: 200,
-      protein: 13.5,
-      carbohydrates: 24,
-      fat: 7.5,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [13, 15],
   },
@@ -203,10 +359,22 @@ export const products = [
     price: 12.99,
     description: "A description for Product 15",
     nutritionalContent: {
-      calories: 195,
-      protein: 13,
-      carbohydrates: 23,
-      fat: 7,
+      calories: {
+        value: 150,
+        unit: "kcal",
+      },
+      protein: {
+        value: 10,
+        unit: "g",
+      },
+      carbohydrates: {
+        value: 20,
+        unit: "g",
+      },
+      fat: {
+        value: 5,
+        unit: "g",
+      },
     },
     relatedProducts: [13, 14],
   },

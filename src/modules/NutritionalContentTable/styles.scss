@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.nutritional-content-table {
+  width: 100%;
+  color: $color-dark-grey;
+
+  h3 {
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    margin-top: 0;
+    margin-bottom: $spacing-xs;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr {
+    display: flex;
+    justify-content: space-between;
+    padding: $spacing-xs 0;
+    border-bottom: 1px solid $color-divider;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  td {
+    padding: 0;
+  }
+}
