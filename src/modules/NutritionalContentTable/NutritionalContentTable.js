@@ -3,15 +3,22 @@ import "./styles.scss";
 
 const NutritionalContentTable = ({ nutritionalContent }) => {
   return (
-    <div className="nutritional-content-table">
-      <h3>Nutritional Content</h3>
+    <div
+      className="nutritional-content-table"
+      itemscope=""
+      itemtype="https://schema.org/NutritionInformation"
+    >
+      <h3 itemprop="name">Nutritional Content</h3>
       <table>
         <tbody>
           {Object.keys(nutritionalContent).map((key) => (
             <tr key={key}>
-              <td>{key.charAt(0).toUpperCase() + key.slice(1)}</td>
+              <td itemprop={key}>
+                {key.charAt(0).toUpperCase() + key.slice(1)}
+              </td>
               <td>
-                {nutritionalContent[key].value} {nutritionalContent[key].unit}
+                <span itemprop="value">{nutritionalContent[key].value}</span>{" "}
+                <span itemprop="unitText">{nutritionalContent[key].unit}</span>
               </td>
             </tr>
           ))}

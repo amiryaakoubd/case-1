@@ -10,7 +10,11 @@ const ProductDetailsDialog = ({ product, onClose }) => {
   return (
     <div className="product-details-overlay">
       <div className="product-details-wrapper">
-        <dialog className="product-details-dialog">
+        <dialog
+          className="product-details-dialog"
+          itemscope=""
+          itemtype="https://schema.org/Product"
+        >
           <div className="product-details-header">
             <h2 itemProp="name">{product.name}</h2>
             <button aria-label="Close" onClick={() => onClose()}>
