@@ -28,8 +28,8 @@
   max-width: 540px;
   display: flex;
   flex-direction: column;
-  // TODO: Fix this
   overflow-y: auto;
+  max-height: calc(100vh - $spacing-md * 4);
 
   padding: $spacing-md;
   border: none;
@@ -78,7 +78,6 @@
     justify-content: center;
 
     position: relative;
-    cursor: pointer;
 
     @media (min-width: $breakpoint-sm) {
       justify-content: flex-start;
